@@ -3393,7 +3393,9 @@ body.is-preload #wrapper.fade-in:before {
 
 #intro {
   color: #ffffff;
-  padding: 8rem 4rem 6rem 4rem;
+  /* padding: 8rem 4rem 6rem 4rem; */
+  padding: 5rem 3rem 3rem 3rem;
+
   -moz-align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
@@ -3418,7 +3420,7 @@ body.is-preload #wrapper.fade-in:before {
   cursor: default;
   text-align: center;
   z-index: 1;
-  min-height: 100vh;
+  min-height: 50vh;
 }
 
 #intro input,
@@ -4823,5 +4825,10 @@ article {
 
 .smallImg {
   width: 4rem;
+  margin: 1rem;
   height: 4rem;
+}
+
+.flexImgs {
+  /* display: flex; */
 }

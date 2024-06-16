@@ -4820,3 +4820,8 @@ article {
   left: 50%;
   transform: translateX(-50%);
 }
+
+.smallImg {
+  width: 4rem;
+  height: 4rem;
+}
